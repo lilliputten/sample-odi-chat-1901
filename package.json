@@ -1,0 +1,16 @@
+{
+  "name": "sample-odi-chat",
+  "version": "1.0.0",
+  "description": "Sample chat app on odi framework",
+  "main": "index.js",
+  "author": "lilliputten <igor@lilliputten.ru> (http://lilliputten.ru)",
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilliputten/sample-odi-chat-1901.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

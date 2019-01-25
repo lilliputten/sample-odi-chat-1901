@@ -1,0 +1,28 @@
+<!--
+ vim: ft=markdown:
+-->
+
+# sample-odi-chat-1901
+
+## Project docs
+
+- `README.md`
+- `TODO.md`
+- `CHANGELOG.md`
+
+## Config files
+
+- `package.json`
+- `.lvimrc`
+- `tsconfig.json` (set/reset `noUnusedLocals`, `noUnusedParameters` for production/development)
+- `tslint.yaml`
+- `.eslintrc.yml`
+- '.stylelintrc'
+
+## Module extensions
+
+- `*.js,*.jsx,*.ts,*.tsx,*.css,*.styl,*.md,*.json,*.yaml,*.sh`
+
+## Core components
+
+- `js/index.js`
