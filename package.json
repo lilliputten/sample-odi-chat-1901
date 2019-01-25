@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/lilliputten/sample-odi-chat-1901.git"
   },
+  "dependencies": {
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "odi": "^0.3.31",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "socket.io": "^2.2.0"
+  },
   "scripts": {
+    "start": "tsc && node build/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
