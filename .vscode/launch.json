@@ -8,13 +8,19 @@
             "type": "node",
             "request": "launch",
             "name": "Debug TypeScript in Node.js",
-            "preLaunchTask": "tsc: build - tsconfig.json",
+            "preLaunchTask": "tsc",
             "program": "${workspaceFolder}/src/index.ts",
             "cwd": "${workspaceFolder}",
             "protocol": "inspector",
+            "sourceMaps": true,
+            "console": "internalConsole",
+            "runtimeExecutable": "node",
             "outFiles": [
-              "${workspaceFolder}/build/**/*.js",
+              "${workspaceRoot}/build/**/*.js",
             ],
+            "env": {
+                "NODE_ENV": "development"
+            },            
         },
         {
             "type": "node",

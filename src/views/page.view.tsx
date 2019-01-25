@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chat } from './chat.view';
 import { Html } from './layout.view';
-import { Message } from '../src/services/history';
+import { Message } from '../services/history';
 
 interface ChatPageProps {
   history: Message[];
