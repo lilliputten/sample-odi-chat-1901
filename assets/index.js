@@ -6,8 +6,6 @@ const messageInput = document.querySelector('#message-input');
 const usernameInput = document.querySelector('#user-input');
 const container = document.querySelector('.container');
 
-debugger;
-
 function createMessage({ username, text }) {
   const element = document.createElement('div');
 
