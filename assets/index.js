@@ -1,4 +1,3 @@
-/* eslint-env es6, browser */
 
 const button = document.querySelector('button');
 
@@ -8,7 +7,6 @@ const container = document.querySelector('.container');
 
 function createMessage({ username, text }) {
   const element = document.createElement('div');
-
   element.innerHTML = `
     <b>${username}: </b>
     <span>${text}</span>
@@ -24,7 +22,7 @@ socket.on('message:new', (message) => {
 });
 
 button.onclick = () => {
-  socket.emit('massage:send', {
+  socket.emit('message:send', {
     text: messageInput.value,
     username: usernameInput.value
   });

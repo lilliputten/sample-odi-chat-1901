@@ -7,7 +7,7 @@ new Core({
     port: 8080,
     socket: true,
     static: {
-      root: join(__dirname, '../../assets'),
+      root: join(__dirname, '../assets'),
       prefix: '/assets',
     },
   },

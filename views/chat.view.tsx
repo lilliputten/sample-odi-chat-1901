@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Message } from './services/history.service';
 import { Message } from '../src/services/history';
 
 export const ChatMessage = ({ username, text }: Message) => (
